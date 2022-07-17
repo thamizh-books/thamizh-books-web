@@ -1,0 +1,20 @@
+site_name: Thamizh Books Web
+
+theme:
+  name: material
+  font:
+    text: Noto Sans Tamil
+    code: Mukta Malar
+  features:
+    - navigation.indexes
+
+nav:
+  - ஸதீநாத் பாதூரி: 
+    - ஸதீநாத் பாதூரி: Satinath_Bhaduri/index.md
+    - விடியுமா!:
+      - விடியுமா!: Satinath_Bhaduri/vidiyuma/index.md
+      - முன்னுரை:
+        - i: Satinath_Bhaduri/vidiyuma/foreword/i.md
+      
+extra_css:
+  - stylesheets/extra.css
